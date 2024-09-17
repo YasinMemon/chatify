@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XChat</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="weblogo">
+                <img 
+                id="logo"
+                src="../gallary/logo.png" 
+                alt="Xchat">
+                <h3>XChat</h3>
+            </div>
+        </nav>
+    </header>
+    <main class="arena">
+    </main>
+
+    <form class="message-form" action="#" id="form">
+        <input id="input" type="text" placeholder="Type your message..." required>
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script defer src="/socket.io/socket.io.js"></script>
+    <script defer src="../javascripts/script.js"></script>
+</body>
+</html>
